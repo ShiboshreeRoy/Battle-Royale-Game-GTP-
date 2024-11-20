@@ -107,12 +107,3 @@ Feel free to fork the repository, make changes, and submit pull requests. I'd lo
 - **JavaScript** for the interactive game logic.
 - **GitHub Pages** for hosting this project.
 
----
-
-This documentation provides a comprehensive overview of your project and includes detailed instructions for users to get started with your game. You can replace the placeholder links with your actual GitHub, LinkedIn, or personal URLs.
-
-To upload this to GitHub:
-1. Create a new repository on GitHub (if you haven't already).
-2. Add your project files to the repository, including this `README.md`.
-3. Push the changes to GitHub.
-
