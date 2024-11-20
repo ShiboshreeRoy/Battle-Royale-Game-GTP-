@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Battle Royale Game</title>
+  <link rel="stylesheet" href="./GTP/app/assests/main.css">
+  <!-- Add Font Awesome for icons -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-XbsuXZ8ypajqAkD4jlbY5yJzvJeGVjBohWc2HnS2Ld6vqtK1ukDZ8OBCdMJt91jRUoaIr47bmr6E7B32h5y00A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./GTP/db/Game_1.png" type="image/x-icon">
+</head>
+<body>
+  <div class="game-container">
+    <header>
+      <h1><i class="fas fa-gamepad"></i> Battle Royale Game</h1>
+      <div class="stats">
+        <div>
+          <i class="fas fa-heart"></i> Health: <span id="health">100</span>
+        </div>
+        <div>
+          <i class="fas fa-skull-crossbones"></i> Enemies Left: <span id="enemies">5</span>
+        </div>
+      </div>
+    </header>
+    <div class="game-area">
+      <div id="player" class="player">
+        <i class="fas fa-user-ninja"></i> <!-- Player Icon -->
+      </div>
+      <!-- Enemies -->
+      <div id="enemy1" class="enemy">
+        <i class="fas fa-robot"></i> <!-- Enemy Icon -->
+      </div>
+      <div id="enemy2" class="enemy">
+        <i class="fas fa-robot"></i>
+      </div>
+      <div id="enemy3" class="enemy">
+        <i class="fas fa-robot"></i>
+      </div>
+    </div>
+    <footer>
+      <button id="shootBtn">
+        <i class="fas fa-bullseye"></i> Shoot
+      </button>
+      <p>Developed by <strong>Shiboshree Roy</strong></p>
+    </footer>
+  </div>
+  <script src="./GTP/app/config/main.js"></script>
+</body>
+</html>
